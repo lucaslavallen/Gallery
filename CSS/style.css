@@ -1,0 +1,88 @@
+body {
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+header h1 {
+    color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    cursor: context-menu;
+}
+
+header h1:hover {
+    color: beige;
+    transform: scale(1.1);
+    transition: 0.3s
+}
+
+#menu ul{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    
+}
+
+#menu ul>li {
+    padding: 20px;
+    list-style: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: burlywood;
+    font-size: 25px;
+    
+}
+
+#menu a:hover {
+    color: beige;
+    transition: 0.4s;
+}
+
+
+
+.text {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.text p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: burlywood;
+}
+
+.text p span:hover {
+    color: beige;
+    transition: 1s;
+    transform: scale(1.1);
+    font-size: 23px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    cursor: context-menu;
+}
+
+footer:hover {
+    transition: 0.5s;
+    color: burlywood;
+}
